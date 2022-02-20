@@ -10,6 +10,6 @@ outputs:
     description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/t2y/jib-sample:mytag'
+  image: 'docker://ghcr.io/t2y/jib-sample:latest'
   args:
     - ${{ inputs.who-to-greet }}
